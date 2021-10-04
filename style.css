@@ -79,10 +79,14 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   
   /* BLOCCO STEPS SMARTPHONE */
+  #steps {
+    padding-top: 5px;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
@@ -92,7 +96,7 @@ img {
   
   /* BLOCCO PERCHE' SMARTPHONE */
   #why {
-    margin-top: 60px;
+    padding-top: 60px;
   }
 
   #why .row>.first,
@@ -107,6 +111,10 @@ img {
 
   #why hr {
     margin: 40px 0;
+  }
+
+  #why h1 {
+    margin: 0;
   }
 
   /* COMMON */
