@@ -81,10 +81,28 @@ img {
     width: 100%;
     margin-bottom: 20px;
   }
+
+  #lezioni .row {
+    padding: 0 50px;
+  }
+
+  #lezioni img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* #lezioni img {
+    width: 100%;
+    height: auto;
+  } */
   
   /* BLOCCO STEPS SMARTPHONE */
   #steps {
     padding-top: 5px;
+  }
+
+  #steps .row {
+    padding: 0 50px;
   }
 
   #steps .row>.left,
@@ -93,10 +111,19 @@ img {
     width: 100%;
     margin-top: 60px;
   }
+
+  #steps img {
+    width: 100%;
+    height: auto;
+  }
   
   /* BLOCCO PERCHE' SMARTPHONE */
   #why {
     padding-top: 60px;
+  }
+  
+  #why .row {
+    padding: 0 50px;
   }
 
   #why .row>.first,
@@ -117,14 +144,15 @@ img {
     margin: 0;
   }
 
+
   /* COMMON */
-    .row {
-      width: auto;
-      margin: 0;
-      font-size: 1.5rem;
-    }
-    
-    h1 {
-      font-size: 1.8em;
-    }
+  .row {
+    width: auto;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
 }

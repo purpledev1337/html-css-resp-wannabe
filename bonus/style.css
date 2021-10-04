@@ -22,7 +22,15 @@ body {
 /* BLOCCO STEPS */
 #steps .row {
   display: flex;
-  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 18%;
+  min-width: 220px;
+  margin-top: 80px;
 }
 
 #steps {
@@ -83,7 +91,7 @@ img {
     margin: 30px 0;
   }
   
-  #why .row>img {
+  #why .row img {
     height: 100px;
   }
 
