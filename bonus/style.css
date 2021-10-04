@@ -1,0 +1,160 @@
+body {
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 25%;
+  min-width: 330px;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+/* SMARTPHONE */
+@media all and (max-width: 419px) {
+  
+  /* BLOCCO LEZIONI SMARTPHONE */
+  #lezioni .row {
+    width: 100%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin-bottom: 50px;
+  }
+  
+  /* BLOCCO STEPS SMARTPHONE */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  /* BLOCCO PERCHE' SMARTPHONE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 30px 0;
+  }
+  
+  #why .row>img {
+    height: 100px;
+  }
+
+  #why hr {
+    margin: 40px 0;
+  }
+
+  /* COMMON */
+  .row {
+    margin: 0;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+/* TABLET */
+@media all and (max-width: 768px) {
+  
+  /* BLOCCO LEZIONI SMARTPHONE */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin: 35px 0;
+  }
+
+  /* BLOCCO STEPS SMARTPHONE */
+  #steps .row {
+    padding-bottom: 50px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    margin: 0 auto;
+    max-width: 60vw;
+    margin-top: 8%;
+  }
+
+  #steps h1 {
+    padding-top: 35px;
+  }
+  
+  /* BLOCCO PERCHE' SMARTPHONE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 60vw;
+  }
+
+  #why .row img {
+    height: 100px;
+  }
+
+  #why h1 {
+    margin: 0;
+  }
+  
+  /* COMMON */
+  .row {
+    margin: 0;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    height: 150px;
+  }
+
+
+}
